@@ -1,0 +1,215 @@
+
+/* style appliquer sur l'icone de la navbar */
+/* le conteiner de l'icone utilisateur */
+#icoUser{
+  color: lightgreen; 
+  font-size: 25px;
+  margin-right: 100px;
+
+}
+.fa-user{
+  color: white;
+  position: fixed;
+  margin-right: 90px;
+}
+.fa-user:hover{
+  color: lightgreen;
+}
+
+.dropdown-item:hover{
+  background-color: #91eedd;
+}
+/* ------------------------------------- */
+
+#ico-nav:hover{
+  color:lightgreen;
+  font-size: 30px;
+}
+
+
+.nav-item{
+  margin:0  20px;
+  color: azure;
+}
+
+.container {
+  position: relative; /* Permet de positionner les éléments absolus par rapport au container */
+}
+
+.bouton-externe {
+  position: fixed;
+  top: 100px;
+  right: 0;
+  font-size: 40px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+
+/* ######### le bouton du panier ############################## */
+.bouton-externe {
+  transition: all 0.3s ease-in-out;
+  font-family: "Dosis", sans-serif;
+}
+
+.bouton-externe {
+  width: 100px;
+  height: 60px;
+  border-radius: 50px;
+  background-image: linear-gradient(135deg, #42f778 0%, #54bcec 100%);
+  box-shadow: 0 20px 30px -6px rgba(114, 235, 179, 0.5);
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+
+.bouton-externe:hover {
+  transform: translateY(3px);
+  box-shadow: none;
+}
+
+.bouton-externe:active {
+  opacity: 0.5;
+}
+/* ####################################### */
+
+/* ######### les etoiles des cartes############################################### */
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+}
+
+.rating > input {
+  display: none;
+}
+
+.rating > label:before {
+  display: inline-block;
+  font-size: 30px;
+  padding: 5px;
+  content: "★";
+  color: #ccc;
+}
+
+.rating > label {
+  color: #ddd;
+  float: right;
+  cursor: pointer;
+}
+
+.rating > input:checked ~ label:before,
+.rating:not(:checked) > label:hover:before,
+.rating:not(:checked) > label:hover ~ label:before {
+  color: #f2b600;
+}
+
+
+/* ######################################################## */
+
+
+
+/* ################# PAGE PRODUIT BARRE LATTERALE ########################################### */
+
+.sidebar {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    width: 150px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidebar p {
+    margin: 10px 0;
+    text-decoration: none;
+    font-size: 35px;
+    color: #dedfd9;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #2ec94a;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 15x;
+  }
+  
+  .openbtn {
+    font-size:10px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    margin-left: -10px;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+    margin-top: 100px;
+  }
+  
+  /* change de style sur un écran plus petit de 450px à partir de ce media screen */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  .text-title {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+   }
+   /*--------------------------------------------------------------------------------------*/
+
+   h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-bottom: 40px;
+   }
+
+   h3{
+    margin-top: 40px;
+   }
+
+   #gogo:hover {
+    font-size: 30px;
+    color: #43a459;
+   }
+
+   /* ------------------------------------------------------------------------------------- */
+
+   /* le dropdown de la barre lattéralle  */
+
+
+.card-img-top{
+  height: 250px;
+}
